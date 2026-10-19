@@ -1,0 +1,15 @@
+# Local databases and SQLite sidecars
+*.db
+*.db-shm
+*.db-wal
+
+# Build output
+/bin/
+/dist/
+/withdrawal-service
+
+# Local secrets/config
+.env
+
+# IDE settings
+.idea/
